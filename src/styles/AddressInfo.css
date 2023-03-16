@@ -1,0 +1,42 @@
+.info-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+  width: 800px;
+  position: absolute;
+  top: -60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.info {
+  width: 100%;
+  padding: 0 20px 0 20px;
+  border-right: 1px solid rgba(43, 41, 41, 0.192);
+}
+
+.info > p:nth-child(1) {
+  color: rgb(168, 166, 166);
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.info > p:nth-child(2) {
+  color: rgb(27, 27, 27);
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.isp {
+  border: none;
+}
